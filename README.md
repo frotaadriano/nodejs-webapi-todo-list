@@ -1,17 +1,23 @@
 # nodejs-webapi-todo-list
-Basic NodeJS todo WebAPI with mongoDB 
+## Basic NodeJS todo WebAPI with mongoDB 
 
 
-Steps:
+###### Steps:
 
-[1] Chosse a folder and clone the Repo with the command: git clone https://github.com/frotaadriano/nodejs-webapi-todo-list.git
-[2] Execute:  cd nodejs-webapi-todo-list\
-[3] Execute: npm i --save
-[4] Start your local mondodb, command: mongod
-[5] Start the API: npm run dev  
+**[1]** Chosse a folder and clone the Repo with the command: git clone https://github.com/frotaadriano/nodejs-webapi-todo-list.git
 
-[6] API is show a messagen like this:
 
+**[2]** Execute:  cd nodejs-webapi-todo-list\
+
+**[3]** Execute: npm i --save
+
+**[4]** Start your local mondodb, command: mongod
+
+**[5]** Start the API: npm run dev  
+
+**[6]** API is show a messagen like this:
+
+```
 [nodemon] 1.18.11
 [nodemon] to restart at any time, enter `rs`
 [nodemon] watching: *.*
@@ -19,9 +25,9 @@ Steps:
 ================================
 BACKEND is running on port 3003.
 ================================
+```
 
-
-[7] Go to API documentation and execute the CRUD as desired: 
+**[7]** Go to API documentation and execute the CRUD as desired: 
  https://documenter.getpostman.com/view/1237862/S1ETRwjQ
  
  
