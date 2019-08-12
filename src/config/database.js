@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
 
-const url = process.env.MONGOLAB_URL ? process.env.MONGOLAB_URL : 'mongodb://localhost/afstodo'
+const url = process.env.MONGOLAB_URI ? process.env.MONGOLAB_URI : 'mongodb://localhost/afstodo'
 
 module.exports = mongoose.connect(url,{ useNewUrlParser: true })
 
