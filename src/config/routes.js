@@ -10,6 +10,9 @@ module.exports = function(server) {
     const todoService = require('../api/todo/todoService')
     todoService.register(router, '/todos')
 
+    const tagsService = require('../api/tags/tagsService')
+    tagsService.register(router, '/tags')
+
     const userService = require('../api/users/userService')
     userService.register(router, '/users')
 }
